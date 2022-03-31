@@ -1,15 +1,20 @@
-# mib2-parameter-tool
+# MIB2 Parameter Tool
 Rear, analize, customize VAG MIB2 parameters
 
 ## Purpose ##
 Backup parametrization from MIB2 main unit (module 0x5F), analize it, modify it, upload back to unit. Without VCP.
 
 ## Functions (planned) ##
-* Sound parameters upload
+* Parametrization data read/backup
+* Analize data
 * Additional sound equilizers activation
 * Subwoofer controls
 * Video in motion / MirrorLink in motion activation
 * In-Car Communication (ICC) activation
+* Parametrization restore/upload
+
+## Usage ##
+placeholder
 
 ## Research ##
 ### Intro ###
@@ -19,6 +24,7 @@ Backup parametrization from MIB2 main unit (module 0x5F), analize it, modify it,
 * Each dataset is stored at certain address in the unit memory.
 * Dataset address can be different for `STD` and `HIGH` units, also can change with firmware versions.
 * Last two bytes in dataset is checksum CRC-16/CCITT-FALSE
+* Since MIB2 units have build-in audio amblifier with 6 output channels, it's possible to use all 6 with correct dataset. From factory Audi Sound System (Audi A3 8V) and Seat Sound System (Seat Leon MK3 5F) are using 6 channels for 9.1 system (`9VD` package with 4x2 speakers in doors, 1x center in dash, 1x subwoofer in trunk, without external amplifier). It should be possible to add subwoofer in other cars (VW Golf MK7 5G, Skoda Octavia MK3 5E), wire it to MIB2 main unit, and enable sound output.
 
 ### Datasets ###
 * DTCP
