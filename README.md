@@ -55,3 +55,4 @@ placeholder
 * https://www.drive2.ru/l/574649307970404656/
 * https://github.com/NumberOneBot/mqb-mib2-sound-datasets
 * https://crccalc.com
+* https://stackoverflow.com/questions/30035582/how-to-calculate-crc16-ccitt-in-php-hex
