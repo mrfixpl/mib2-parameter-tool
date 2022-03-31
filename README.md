@@ -48,6 +48,6 @@ placeholder
 * air quality
 
 ## Reference ##
-https://www.drive2.ru/l/611261670785849626/
-https://www.drive2.ru/l/574649307970404656/
-https://crccalc.com
+* https://www.drive2.ru/l/611261670785849626/
+* https://www.drive2.ru/l/574649307970404656/
+* https://crccalc.com
