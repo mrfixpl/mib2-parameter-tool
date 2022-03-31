@@ -25,6 +25,9 @@ placeholder
 * Dataset address can be different for `STD` and `HIGH` units, also can change with firmware versions.
 * Last two bytes in dataset is checksum CRC-16/CCITT-FALSE
 * Since MIB2 units have build-in audio amblifier with 6 output channels, it's possible to use all 6 with correct dataset. From factory Audi Sound System (Audi A3 8V) and Seat Sound System (Seat Leon MK3 5F) are using 6 channels for 9.1 system (`9VD` package with 4x2 speakers in doors, 1x center in dash, 1x subwoofer in trunk, without external amplifier). It should be possible to add subwoofer in other cars (VW Golf MK7 5G, Skoda Octavia MK3 5E), wire it to MIB2 main unit, and enable sound output.
+* It looks like there's access to some datasets in the unit in the file system
+* * `0x003B00`: `/tsd/etc/audio/soundcurves/configuration.bin`
+* * `0x003000`: `/tsd/etc/audio/soundcurves/vw/soundparams0.bin`
 
 ### Datasets ###
 * DTCP
