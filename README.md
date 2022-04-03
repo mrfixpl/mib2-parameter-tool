@@ -48,6 +48,11 @@ placeholder
 * `0x7000` - in car communication
 * air quality
 
+### Steps to install 9VD sound package (9.1 speaker system)
+* Wire center speaker and sub to quadlock
+* Recode `0x5F`, bytes 04-07 to `FF0A0000`
+* Parametrize `0x5F`, address `0x3000` and `0x3B00` with proper datasets.
+
 ## Reference & Sources ##
 * https://www.drive2.ru/l/611261670785849626/
 * https://www.drive2.ru/l/574649307970404656/
