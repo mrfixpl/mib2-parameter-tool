@@ -1,5 +1,5 @@
 # MIB2 Parameter Tool
-Rear, analize, customize VAG MIB2 parameters
+Read, analize, customize, generate VAG MIB2 parameters
 
 ## Purpose ##
 Backup parametrization from MIB2 main unit (module 0x5F), analize it, modify it, upload back to unit. Without VCP.
